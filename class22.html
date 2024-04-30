@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hublu practice</title>
+</head>
+
+<body>
+    <!-- class 22 -->
+    <h1 style="text-align: center;">Sing Up Form </h1>
+    <hr> <br>
+    <form action="#" method="post">
+
+        <label for="user">Name</label>
+        <input type="text" id="user" name="user" placeholder="User Name">
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="emil" id="email" name="usermail" placeholder="Example@gmail.com" required>
+        <br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="userpassworad" placeholder="Enter your password" required>
+        <br><br>
+
+
+        <label for="Phone">Phone</label>
+        <select name="code">
+            <option value="+088">+088</option>
+            <option value="+990">+990</option>
+            <option value="+110">+110</option>
+        </select>
+        <input type="text" id="Phone" name="Phone" placeholder="User Phone" required>
+        <br>
+        <label for="country">Country</label>
+        <input list="con">
+        <datalist id="con">
+            <option value="Bangaldesh">Bangaldesh</option>
+            <option value="India">India</option>
+            <option value="Canada">Canada</option>
+        </datalist>
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others
+        <br><br>
+
+        <label for="DOB">Date Of Birth</label>
+        <input type="date" id="DOB" name="DOB">
+        <br><br>
+
+        <label for="time">Time</label>
+        <input type="time" id="time" name="time">
+        <br><br>
+
+        <label for="colors">Color</label>
+        <input type="color" id="colors" name="colors">
+        <br><br>
+
+        <label for="file">Choose Photo</label>
+        <input type="file" id="file" name="file" placeholder="User file">
+        <br><br>
+
+        <input type="checkbox" id="bike" name="bike">
+        <label for="bike"> I have a Bike</label>
+        <input type="checkbox" id="car" name="car">
+        <label for="car"> I have a Car </label>
+        <br> <br>
+        <textarea cols="30" rows="10" placeholder="Enter Your Massage Foe Us"></textarea>
+        <br><br>
+
+        <!-- batton  -->
+
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+
+        <br><br>
+
+    </form>
+</body>
+
+</html>
